@@ -1,8 +1,8 @@
 <?php
 
-require_once EXTENSIONS . '/devicecategorizr/lib/categorizr.php';
+require_once EXTENSIONS . '/device_categorizr/lib/categorizr.php';
 
-class Extension_DeviceCategorizr extends Extension {
+class Extension_Device_Categorizr extends Extension {
 	
 	public function about() {
 		return array(
