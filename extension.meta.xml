@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension id="device_categorizr" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Device Categorizr</name>
+	<description>Categorizr is a modern device detection script that helps categorize different web-capable devices into four categories: desktop, tv, tablet and mobile. It takes traditional device detection and flips it on its head, assuming devices are mobile unless otherwise detected. Categorizr was created by Brett Jankord.</description>
+	<repo type="github">https://github.com/DavidOliver/device_categorizr</repo>
+	<authors>
+		<author>
+			<name github="DavidOliver" symphony="DavidOliver">David Oliver</name>
+			<website>http://doliver.co.uk/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.0.1" date="2012-02-29"/>
+	</releases>
+</extension>
