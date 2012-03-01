@@ -21,15 +21,17 @@ CSS, JavaScript, image sizes and HTML source order are all examples of things yo
 
 #### Image-sizing via JIT
 
-	<xsl:when test="$device-categorizr='desktop'">
-		<img src="{$root}/image/1/1000/0/{image/@path}/{image/filename}"/>
-	</xsl:when>
-	<xsl:when test="$device-categorizr='tv' or $device-categorizr='tablet'">
-		<img src="{$root}/image/1/800/0/{image/@path}/{image/filename}"/>
-	</xsl:when>
-	<xsl:otherwise>
-		<img src="{$root}/image/1/500/0/{image/@path}/{image/filename}"/>
-	</xsl:otherwise>
+	<xsl:choose>
+		<xsl:when test="$device-categorizr='desktop'">
+			<img src="{$root}/image/1/1000/0/{image/@path}/{image/filename}"/>
+		</xsl:when>
+		<xsl:when test="$device-categorizr='tv' or $device-categorizr='tablet'">
+			<img src="{$root}/image/1/800/0/{image/@path}/{image/filename}"/>
+		</xsl:when>
+		<xsl:otherwise>
+			<img src="{$root}/image/1/500/0/{image/@path}/{image/filename}"/>
+		</xsl:otherwise>
+	</xsl:choose>
 
 ### Allowing visitors the option
 
