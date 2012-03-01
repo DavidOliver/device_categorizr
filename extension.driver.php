@@ -28,7 +28,7 @@ class Extension_Device_Categorizr extends Extension {
 	}
 	
 	public function addParam(&$context) {
-		$context['params']['devicecategorizr'] = categorizr();
+		$context['params']['device-categorizr'] = categorizr();
 	}
 	
 }
