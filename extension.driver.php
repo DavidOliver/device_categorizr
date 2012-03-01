@@ -7,8 +7,8 @@ class Extension_Device_Categorizr extends Extension {
 	public function about() {
 		return array(
 			'name'			=> 'Device Categorizr',
-			'version'		=> '0.0.1',
-			'release-date'	=> '2012-02-29',
+			'version'		=> '0.1',
+			'release-date'	=> '2012-03-01',
 			'author'		=> array(
 				'name'			=> 'David Oliver',
 				'website'		=> 'http://doliver.co.uk',
