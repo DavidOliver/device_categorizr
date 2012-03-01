@@ -31,9 +31,9 @@ CSS, JavaScript, image sizes and HTML source order are all examples of things yo
 		<img src="{$root}/image/1/500/0/{image/@path}/{image/filename}"/>
 	</xsl:otherwise>
 
-### Allowing visitor the option
+### Allowing visitors the option
 
-If necessary, you can also provide links with a `view` URL query string parameter that enable visitors to manually choose their desired view. For example: `http://example.net/?view=desktop` This will save the desired view type in the Categorizr cookie for subsequent page loads. However, if your web site or application serves the same content to and responds in a suitable way to each type of device, this will likely be superfluous and an unnecessary complication for your visitors.
+If necessary, you can also provide links with a `view` URL query string parameter that enable visitors to manually choose their desired view. For example: `http://example.net/?view=desktop` This will save the desired view type in the PHP session for subsequent page loads. However, if your web site or application serves the same content to and responds in a suitable way to each type of device, this will likely be superfluous and an unnecessary complication for your visitors.
 
 ## Credit and thanks
 
