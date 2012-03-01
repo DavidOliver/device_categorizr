@@ -13,11 +13,11 @@ Once installed and enabled, Device Categorizr will ensure all frontend pages hav
  * tv
  * desktop
 
-You are then able to change your XSLT template’s output based on your visitor’s device type.
+You are then able to change your XSLT templates’ output based on your visitor’s device type.
 
 ### Examples
 
-CSS, JavaScript, image sizes and HTML source order are all examples of things you may wish to alter based on the visitor’s device type.
+CSS, JavaScript, image sizes and HTML source order are all examples of things you may wish to alter based on your visitor’s device type.
 
 #### Image-sizing via JIT
 
