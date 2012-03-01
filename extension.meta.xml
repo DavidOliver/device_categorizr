@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <extension id="device_categorizr" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Device Categorizr</name>
-	<description>Identifies the visitor's device type (mobile, tablet, tv or desktop).</description>
+	<description>Identifies the visitor’s device type (mobile, tablet, tv or desktop).</description>
 	<repo type="github">https://github.com/DavidOliver/device_categorizr</repo>
 	<authors>
 		<author>
