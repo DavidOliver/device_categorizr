@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension id="device_categorizr" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="device_categorizr" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Device Categorizr</name>
-	<description>Identifies the visitor’s device type (mobile, tablet, tv or desktop).</description>
+	<description>Makes the visitor’s device type available to your XSLT templates (mobile, tablet, tv or desktop).</description>
 	<repo type="github">https://github.com/DavidOliver/device_categorizr</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/85078/</url>
 	<authors>
 		<author>
 			<name github="DavidOliver" symphony="DavidOliver">David Oliver</name>
@@ -10,6 +11,7 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.0.0" date="2012-05-06" min="2.3">No functional change. Marking as released, and compatible with and requiring Symphony 2.3.</release>
 		<release version="0.1" date="2012-03-01" min="2.2"/>
 	</releases>
 </extension>
