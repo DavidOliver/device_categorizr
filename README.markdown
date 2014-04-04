@@ -1,8 +1,16 @@
-Categorizr is a modern, [mobile-first](http://www.lukew.com/ff/entry.asp?933) device detection script that helps categorize different web-capable devices into four categories: mobile, tablet, tv and desktop.
+## Status
 
-By assuming devices are mobile unless detected as being otherwise, Categorizr is [future friendly](http://futurefriend.ly/): when new phones are released, you need not worry that their user agent may not exist in your device detection library.
+This extension is deprecated as [Categorizr is no longer being developed/maintained](http://www.brettjankord.com/2013/01/10/active-development-on-categorizr-has-come-to-an-end/).
 
-Knowing into which category the visitor’s device falls allows you to use [Responsive Design + Server Side Components (RESS)](http://www.lukew.com/ff/entry.asp?1392) and [Hybrid Responsive Web Design (HRWD)](http://www.brettjankord.com/2012/02/29/hrwd-hybrid-responsive-web-design/) techniques whilst building your web site or application.
+Brett Jankord:
+
+> About a year ago I had this crazy idea to apply mobile first thinking to device detection. Yet I’ve awakened from the consensual hallucination that the web can be divided and grouped into simple categories like mobile, tablet, and desktop since then.
+
+## Introduction
+
+Categorizr was a [mobile-first](http://www.lukew.com/ff/entry.asp?933) device detection script that helped categorize different web-capable devices into four categories: mobile, tablet, tv and desktop.
+
+Knowing into which category the visitor’s device falls helped in using [Responsive Design + Server Side Components (RESS)](http://www.lukew.com/ff/entry.asp?1392) and [Hybrid Responsive Web Design (HRWD)](http://www.brettjankord.com/2012/02/29/hrwd-hybrid-responsive-web-design/) techniques.
 
 ## Usage
 
@@ -35,7 +43,7 @@ CSS, JavaScript, image sizes and HTML source order are all examples of things yo
 
 ### Allowing visitors the option
 
-If necessary, you can also provide links with a `view` URL query string parameter that enable visitors to manually choose their desired view. For example: `http://example.net/?view=desktop` This will save the desired view type in the PHP session for subsequent page loads. However, if your web site or application serves the same content to and responds in a suitable way to each type of device, this will likely be superfluous and an unnecessary complication for your visitors.
+If necessary, you can also provide links with a `view` URL query string parameter that enable visitors to manually choose their desired view. For example: `http://example.net/?view=desktop` This will save the desired view type in the PHP session for subsequent page loads. However, if your website serves the same content to and responds in a suitable way to each type of device, this will likely be superfluous and an unnecessary complication for your visitors.
 
 ## Credit and thanks
 
